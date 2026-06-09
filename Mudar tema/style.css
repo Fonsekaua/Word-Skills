@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+:root {
+    --bg: rgb(0, 102, 255);
+    --text: rgb(255, 255, 255);
+    --form-bg: #d8f1ff;
+    --form-text: black;
+    --input-bg: rgb(204, 231, 255);
+    --input-decoration: rgba(0, 153, 255, 0.39);
+    --form-shadow: rgb(209, 229, 255);
+    --button-bg: rgb(0, 153, 255);
+    --theme-border: rgb(0, 0, 0);
+    --theme-bg-hover: #ffffff38;
+
+}
+
+.dark {
+    --bg: rgb(65, 65, 65);
+    --text: rgb(255, 255, 255);
+    --form-bg: #202020;
+    --form-text: rgb(255, 255, 255);
+    --input-bg: rgb(204, 231, 255);
+    --input-decoration: rgba(116, 116, 116, 0.39);
+    --form-shadow: rgb(129, 129, 129);
+    --button-bg: rgb(0, 119, 255);
+    --theme-border: rgb(255, 255, 255);
+    --theme-bg-hover: #00000038;
+}
+
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+}
+
+.changeTheme {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+    border-radius: 50px;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid var(--theme-border);
+
+}
+.end{
+     justify-content: end;
+}
+
