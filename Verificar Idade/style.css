@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+}
+:root{
+    --p-color: #ff5959;
+}
+.maior{
+    --p-color: #84ff84;
+}
+p{
+    color: var(--p-color);
+    height: 10px;
+}
+span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    padding-left: 5px;
+}
+input,button{
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+input{
+    width: 300px;
+    background: rgb(180, 221, 255);
+}
+button{
+    width: 150px;
+    cursor: pointer;
+    background: rgb(130, 255, 130);
+}

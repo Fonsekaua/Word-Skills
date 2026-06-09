@@ -1,0 +1,26 @@
+#canvas{
+    border: 1px solid black;
+}
+.area{
+    position: relative;
+}
+.mouse{
+    width: 50px;
+    height: 50px;
+    background-color: #00000031;
+    position: absolute;
+}
+.colors{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.color{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
